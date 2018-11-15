@@ -3,6 +3,8 @@ from tkinter import *
 
 root = Tk()
 root.title("8 Ball App")
+root.iconbitmap("favicon (1).ico")
+#root.geometry("700x550")
 
 canv = Canvas(root, width=480, height=480, bg='red')
 canv.grid(row=1,columnspan=2)
